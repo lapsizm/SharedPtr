@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/source.hpp
+algorithm
+-
+atomic
+-
+iostream
+-
+utility
+-
+
+/home/kirill/new_aya/03-lab-03-shared-ptr-lapsizm/demo/main.cpp
+source.hpp
+-
+
